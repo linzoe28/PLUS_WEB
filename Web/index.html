@@ -31,6 +31,7 @@
     <!--slide 設定-->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
+        <!--slide 放置要展示的影像，可自行再增加預想顯示的影像-->
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
@@ -38,7 +39,7 @@
       <div class="carousel-inner" role="listbox">
         <!-- url括號裡填下要替換的影像擋位置，即可抽換圖像-->
         <div class="carousel-item active" style="background-image: url('pic/image1.png')">
-           <!-- 亦可加入要顯示的文字，設定顏色、文字大小-->
+          <!-- 亦可加入要顯示的文字，設定顏色、文字大小-->
           <div class="carousel-caption d-none d-md-block">
             <h1 style="font-size:4rem; color: rgba(231, 76, 76, 0.76); font-weight: 800;">know me : )</h1>
           </div>
@@ -103,12 +104,13 @@
         <h1 class="mb-0 text-success" style="font-size:6rem;">王
           <span class="text-primary">曉明</span>
         </h1>
-        <div class="subheading mb-5">最高學位 XXXXXXX  信箱 XXXXX@gmail.com 聯絡 000-000-0000</div>
+        <div class="subheading mb-5">最高學位 XXXXXXX 信箱 XXXXX@gmail.com 聯絡 000-000-0000</div>
         <p class="lead">我的專業是XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
         <p class="lead">座右銘XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
-        <p class="lead text-danger">選擇我的優勢XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+        <p class="lead text-danger">
+          選擇我的優勢XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
 
       </div>
     </section>
@@ -133,10 +135,10 @@
         <h2>○○○○實習小隊長</h2>
         <p class="text-dark">負責管理XXXXXXX小隊長，協助lab事務、計劃執行、課程安排、人手培育。</p>
         <p class="text-secondary">
-            <p class="text-secondary">
-                <a href="https://www.facebook.com/imsofa.rocks/" target="_blank">IMSOFA</a>
-                ，我是沙發，或說 Innovative Multi-disciplinary Software Factory，除了追求科技，IMSofa 更重視學習，重視團隊，重視分享，
-                希望能藉由幾個人的熱情，由近及遠，庶幾能對資訊科技的發展及資訊教育有所貢獻。</p>
+          <p class="text-secondary">
+            <a href="https://www.facebook.com/imsofa.rocks/" target="_blank">IMSOFA</a>
+            ，我是沙發，或說 Innovative Multi-disciplinary Software Factory，除了追求科技，IMSofa 更重視學習，重視團隊，重視分享，
+            希望能藉由幾個人的熱情，由近及遠，庶幾能對資訊科技的發展及資訊教育有所貢獻。</p>
       </div>
 
       <div class="col-lg-4">
@@ -144,11 +146,12 @@
         <h2>○○○○課程長</h2>
         <p class="text-dark">擔任第十屆課程長，負責規劃在XXXXXXX進行的
           <!--<h>標籤設定為粗體字-->
-          <h style="font-weight:bold;">電腦教育課程</h>。</p>
+          <h style="font-weight:bold;">電腦教育課程</h>。
+        </p>
         <p class="text-secondary">
-            <a href="https://www.facebook.com/imsofa.rocks/" target="_blank">IMSOFA</a>
-            ，我是沙發，或說 Innovative Multi-disciplinary Software Factory，除了追求科技，IMSofa 更重視學習，重視團隊，重視分享，
-            希望能藉由幾個人的熱情，由近及遠，庶幾能對資訊科技的發展及資訊教育有所貢獻。</p>
+          <a href="https://www.facebook.com/imsofa.rocks/" target="_blank">IMSOFA</a>
+          ，我是沙發，或說 Innovative Multi-disciplinary Software Factory，除了追求科技，IMSofa 更重視學習，重視團隊，重視分享，
+          希望能藉由幾個人的熱情，由近及遠，庶幾能對資訊科技的發展及資訊教育有所貢獻。</p>
       </div>
 
     </div>
@@ -246,23 +249,12 @@
     </table>
 
 
-    <!--script>
-      $(document).ready(function () {
-        $("#myInput").on("keyup", function () {
-          var value = $(this).val().toLowerCase();
-          $("#myTable tr").filter(function () {
-            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-          });
-        });
-      });
-    </script-->
-
+    <!--作品集概覽 works_overview -->
     <hr class="featurette-divider" id="works_overview">
-    <!-- Portfolio Section -->
     <h1 class="mt-4 mb-3" id="experience">作品集概覽</h1>
-
     <div class="row">
       <div class="col-lg-4 col-sm-6 portfolio-item">
+        <!--card設定-->
         <div class="card h-100">
           <a href="https://github.com/tsumikihuang/VR_YZU_JP_CLASS" target="_blank">
             <img class="card-img-top" src="pic/work.png" alt="">
@@ -271,13 +263,13 @@
             <h4 class="card-title">
               <div class="row">
                 <div class="col-sm-7">
-                  <a href="https://github.com/tsumikihuang/VR_YZU_JP_CLASS" target="_blank">語言練習VR教室</a>
+                  <a href="your url" target="_blank">WEB 教室</a>
                 </div>
                 <div class="col-sm-5" style="text-align:right;">
-                  <a href="https://github.com/tsumikihuang/VR_YZU_JP_CLASS" target="_blank" class="social-icons">
+                  <a href="your url" target="_blank" class="social-icons">
                     <i class="fa fa-github"></i>
                   </a>
-                  <a href="https://www.youtube.com/watch?v=LafIYAmSHQQ" target="_blank" class="social-icons">
+                  <a href="your url" target="_blank" class="social-icons">
                     <i class="fa fa-youtube"></i>
                   </a>
                 </div>
@@ -286,11 +278,7 @@
             <p class="card-text">
               <a href="https://play.google.com/store/apps/details?id=com.tsumikihuang.vrcourse" target="_blank">Google
                 Play商店</a>
-              <br />
-              <a href="VR教材發表本.pdf" target="_blank">課程教材範例</a>
-              <br />
-              <a href="語言練習VR教室.pdf" target="_blank">作品介紹PDF</a>
-              </br>
+              <br/>
               校內計畫「落實教學創新及提升教學品質」之一專案
               <br />為提升日文系同學在口說方面的不足，製作"語言練習VR教室"，以VR沉浸式情境練習，加上Google語音評分機制，製造易學習語言的環境。
               <br />獲得校內競賽「VR/AR教育應用創作競賽」教學應用組-優等獎。
@@ -355,28 +343,26 @@
           </div>
         </div>
       </div>
-
-
     </div>
   </div>
-  <!-- /.container -->
 
+
+  <!-- 獎狀/證書 -->
   <div class="container marketing" id="awards">
-    <!-- START THE FEATURETTES -->
     <hr class="featurette-divider">
     <h1 class="mt-4 mb-3">獎狀/證書</h1>
-
+    <!--利用 col來安排畫面跟文字排版-->
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Coding Angels
-          <span class="text-muted">Azure Machine Learning Bootcamp</span>
+        <h2 class="featurette-heading">IMSOFA Coding
+          <span class="text-muted">JavaScript 競賽證明</span>
         </h2>
-        <p class="lead">2017年12月09日，第一次使用Azure ML studio，講師教我們將資料餵給Azure
-          ML，如何透過不同的演算法得到最佳的預測結果，最後用R語言將成品輸出收尾，是一堂驚喜滿滿的課程。</p>
+        <p class="lead">2017年12月09日，○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○，○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○
+          ，○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○。</p>
       </div>
       <div class="col-md-5 order-md-1">
-        <img src="./pic/certificate.png" class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto"
-          alt="Generic placeholder image">
+        <!--img src放入影像檔案相對路徑-->
+        <img src="./pic/certificate.png" class="featurette-image img-fluid mx-auto">
       </div>
     </div>
 
@@ -384,33 +370,33 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">DigiGirlz
-          <span class="text-muted">IoT Workshop</span>
+        <h2 class="featurette-heading">IMSOFA WEB
+          <span class="text-muted">IMSOFA Workshop</span>
         </h2>
-        <p class="lead">2018年12月08日，參加第一天的Azure IOT課程，用Azure IoT智慧物件部屬與資料應用-MXChip + IoT Central，體驗物聯網的應用實作。</p>
+        <p class="lead">2018年12月08日，○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○，○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○
+          ，○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○。</p>
       </div>
       <div class="col-md-5">
-        <img src="./pic/application_certificate.png" class="featurette-image img-fluid mx-auto"
-          data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        <img src="./pic/application_certificate.png" class="featurette-image img-fluid mx-auto">
       </div>
     </div>
     <hr class="featurette-divider">
   </div>
 
   <!-- Footer -->
-  <footer class="py-4 bg-dark ">
-    <div class="container">
-      <p class="m-0 text-center text-white">2018 PLUS Web &copy;IM.SOFA </p><br />
-    </div>
+  <!-- py-4(大小) 設定footer高度大小，bg-dark(dark、danger、success、warning) 設定footer顏色 -->
+  <footer class="py-4 bg-dark">
+    <p class="m-0 text-center text-white">2018 PLUS Web &copy;IM.SOFA </p><br />
+    <!-- button，亦可更改為group button -->
     <div class="col-md-2 container">
+      <!-- <i>標籤設定icon，這裡須在class設定css屬性 fa fa-facebook(社群名稱)
+      onclick="location.href 處理要轉接的頁面網址-->
       <button type="button" class="btn btn-outline-primary" onclick="location.href='your url'">
         <i class="fa fa-facebook"></i></button>
       <button type="button" class="btn btn-outline-info" onclick="location.href='your url'">
         <i class="fa fa-github"></i></button>
       <button type="button" class="btn btn-outline-warning" onclick="location.href='your url'">
         <i class="fa fa-instagram"></i></button>
-      <button type="button" class="btn btn-outline-danger" onclick="location.href='your url'">
-        <i class="fa fa-youtube"></i></button>
     </div>
   </footer>
 
